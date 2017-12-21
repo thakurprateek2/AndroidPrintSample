@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:text="Item Id"
+        android:id="@+id/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos consectetur, facilis voluptatum aspernatur, facere tempore optio vel asperiores saepe ab, autem nam! Unde quaerat provident incidunt blanditiis laudantium ab, facilis."
+
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
